@@ -1,0 +1,729 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "bootstrap/4.4.1": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "[3.0.0, 4.0.0)",
+          "popper.js": "[1.16.0, 2.0.0)"
+        }
+      },
+      "jQuery/3.5.1": {
+        "type": "package"
+      },
+      "Microsoft.AspNetCore.NodeServices/3.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Console": "3.1.4",
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.NodeServices.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.NodeServices.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Microsoft.Extensions.Configuration/3.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.4"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/3.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.1.4"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/3.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.1.4"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/3.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.4"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging/3.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Binder": "3.1.4",
+          "Microsoft.Extensions.DependencyInjection": "3.1.4",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.4",
+          "Microsoft.Extensions.Options": "3.1.4"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Logging.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/3.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Configuration/3.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "3.1.4",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "3.1.4"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Logging.Configuration.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Logging.Configuration.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Console/3.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.4",
+          "Microsoft.Extensions.Logging": "3.1.4",
+          "Microsoft.Extensions.Logging.Configuration": "3.1.4"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Logging.Console.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Logging.Console.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Options/3.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.4",
+          "Microsoft.Extensions.Primitives": "3.1.4"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Options.ConfigurationExtensions/3.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.4",
+          "Microsoft.Extensions.Configuration.Binder": "3.1.4",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.4",
+          "Microsoft.Extensions.Options": "3.1.4"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/3.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "OdeToCode.UseNodeModules/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/OdeToCode.UseNodeModules.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/OdeToCode.UseNodeModules.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ],
+        "contentFiles": {
+          "contentFiles/any/netcoreapp3.0/Properties/launchSettings.json": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
+      "popper.js/1.16.0": {
+        "type": "package"
+      }
+    }
+  },
+  "libraries": {
+    "bootstrap/4.4.1": {
+      "sha512": "/QO9//Z8IYv8VmxTS3VzLaQC3wYnJDNbACnZHgLEeMABYjNuVPToLa6VDP2S4KwU3gUFiXglhQYZ00cddSK0IQ==",
+      "type": "package",
+      "path": "bootstrap/4.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "bootstrap.4.4.1.nupkg.sha512",
+        "bootstrap.nuspec",
+        "content/Content/bootstrap-grid.css",
+        "content/Content/bootstrap-grid.css.map",
+        "content/Content/bootstrap-grid.min.css",
+        "content/Content/bootstrap-grid.min.css.map",
+        "content/Content/bootstrap-reboot.css",
+        "content/Content/bootstrap-reboot.css.map",
+        "content/Content/bootstrap-reboot.min.css",
+        "content/Content/bootstrap-reboot.min.css.map",
+        "content/Content/bootstrap.css",
+        "content/Content/bootstrap.css.map",
+        "content/Content/bootstrap.min.css",
+        "content/Content/bootstrap.min.css.map",
+        "content/Scripts/bootstrap.bundle.js",
+        "content/Scripts/bootstrap.bundle.js.map",
+        "content/Scripts/bootstrap.bundle.min.js",
+        "content/Scripts/bootstrap.bundle.min.js.map",
+        "content/Scripts/bootstrap.js",
+        "content/Scripts/bootstrap.js.map",
+        "content/Scripts/bootstrap.min.js",
+        "content/Scripts/bootstrap.min.js.map",
+        "contentFiles/Content/bootstrap-grid.css",
+        "contentFiles/Content/bootstrap-grid.css.map",
+        "contentFiles/Content/bootstrap-grid.min.css",
+        "contentFiles/Content/bootstrap-grid.min.css.map",
+        "contentFiles/Content/bootstrap-reboot.css",
+        "contentFiles/Content/bootstrap-reboot.css.map",
+        "contentFiles/Content/bootstrap-reboot.min.css",
+        "contentFiles/Content/bootstrap-reboot.min.css.map",
+        "contentFiles/Content/bootstrap.css",
+        "contentFiles/Content/bootstrap.css.map",
+        "contentFiles/Content/bootstrap.min.css",
+        "contentFiles/Content/bootstrap.min.css.map",
+        "contentFiles/Scripts/bootstrap.bundle.js",
+        "contentFiles/Scripts/bootstrap.bundle.js.map",
+        "contentFiles/Scripts/bootstrap.bundle.min.js",
+        "contentFiles/Scripts/bootstrap.bundle.min.js.map",
+        "contentFiles/Scripts/bootstrap.js",
+        "contentFiles/Scripts/bootstrap.js.map",
+        "contentFiles/Scripts/bootstrap.min.js",
+        "contentFiles/Scripts/bootstrap.min.js.map"
+      ]
+    },
+    "jQuery/3.5.1": {
+      "sha512": "ji6sm/AI0vjASXAA/AG9Yf5ypALAqIDXFFKPHMAnFL8kp3xqULIWhACjg/OXZP88C56frYlIej2nrdBnhTMYQQ==",
+      "type": "package",
+      "path": "jquery/3.5.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Scripts/jquery-3.5.1-vsdoc.js",
+        "Content/Scripts/jquery-3.5.1.js",
+        "Content/Scripts/jquery-3.5.1.min.js",
+        "Content/Scripts/jquery-3.5.1.min.map",
+        "Content/Scripts/jquery-3.5.1.slim.js",
+        "Content/Scripts/jquery-3.5.1.slim.min.js",
+        "Content/Scripts/jquery-3.5.1.slim.min.map",
+        "Tools/common.ps1",
+        "Tools/install.ps1",
+        "Tools/jquery-3.5.1.intellisense.js",
+        "Tools/uninstall.ps1",
+        "jquery.3.5.1.nupkg.sha512",
+        "jquery.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.NodeServices/3.1.4": {
+      "sha512": "fdxZvP3I20MNMOLFM/gdN6Aie7GMDwe/sY1wZHL0Drn3wthCSB8hJmyNY2UXHQE/cj8lCzEW5dnGUenOxu7t0Q==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.nodeservices/3.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.NodeServices.dll",
+        "microsoft.aspnetcore.nodeservices.3.1.4.nupkg.sha512",
+        "microsoft.aspnetcore.nodeservices.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Configuration/3.1.4": {
+      "sha512": "+NsYvQ00h+9kSp4/60iCAhPUp9S6joS2rsEmfCVrUmVATCveTewcHdrMB+9pJDYkWzCEqPQoJuMfsxe/299Z0w==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration/3.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
+        "microsoft.extensions.configuration.3.1.4.nupkg.sha512",
+        "microsoft.extensions.configuration.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/3.1.4": {
+      "sha512": "k7IJME4US5S5JFOGYaei5TLwutp8IqUvcBWtliKXETGn/JScmCgfej21xq5+ttxi0qZhiyJY06y9dw+cLh3kiQ==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.abstractions/3.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "microsoft.extensions.configuration.abstractions.3.1.4.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Binder/3.1.4": {
+      "sha512": "rN0FlUcOmHpGX1BFGZbtTgsXWwHO9pRTocynckXpqCvcMzqehS36aN+lfIlG3PriFulHF2kzwNVfhBakc072iw==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.binder/3.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.xml",
+        "microsoft.extensions.configuration.binder.3.1.4.nupkg.sha512",
+        "microsoft.extensions.configuration.binder.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection/3.1.4": {
+      "sha512": "dAWhz6BEjUFIVLUPbT1s1sUrPTwbUWdw2iBRRe3ej3xXcKS+oo64dKrIWFxRjYP6TWyESpGFNY5NGeA5FcHVlg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/3.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.3.1.4.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.4": {
+      "sha512": "AceHamXNKDMDwIoZqEoApLp8s3935wSC3VXrPaRWa0wWOaEcYdDlo1nWQ1zLiezoDmpJzV7FqDm53E0Ty/hEMg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.3.1.4.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Logging/3.1.4": {
+      "sha512": "FZDJ0cnW2hZRYCA88XQUOrAwgk6+Df/fSz+wfZkZneEQgJZp7XJ6pRvzt4ug118wJ7JGZehWkbMwwigBDcYZPA==",
+      "type": "package",
+      "path": "microsoft.extensions.logging/3.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Logging.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Logging.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.xml",
+        "microsoft.extensions.logging.3.1.4.nupkg.sha512",
+        "microsoft.extensions.logging.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions/3.1.4": {
+      "sha512": "JNPxhw2XwhjfGFyIkA5eBfzUDPNpa6Q50HJ2F6lCAMoSa1GquAktTrl4PhEyTYFNmu09B0E90WhYsUb3kmSkOA==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/3.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.3.1.4.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Configuration/3.1.4": {
+      "sha512": "FwFVjkeYkiXtBBH6xJDsxhO6hDCxJ0I6c2qDUHBRiDUIrn6N7eXvdwQNQ+cL7XO7n6Xi3pkT+z3EQRvglIkEuQ==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.configuration/3.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Logging.Configuration.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Logging.Configuration.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Configuration.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Configuration.xml",
+        "microsoft.extensions.logging.configuration.3.1.4.nupkg.sha512",
+        "microsoft.extensions.logging.configuration.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Console/3.1.4": {
+      "sha512": "Solz/9q7CaEJBGUVWCzxrJ4VW4Hff202s4spSbTizEn4BoL94WfeXliK8k8+PTJuqj0U5tsoTJFv4tql/7nz9Q==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.console/3.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Logging.Console.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Logging.Console.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Console.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Console.xml",
+        "microsoft.extensions.logging.console.3.1.4.nupkg.sha512",
+        "microsoft.extensions.logging.console.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Options/3.1.4": {
+      "sha512": "ntWmD8i6UmAo0nn5MiCXIVl3+75aybVHgP/NxL9B16zwsbGkSfs+66BullsGEDNvrimgIFVDO+iB/h0yWfATWg==",
+      "type": "package",
+      "path": "microsoft.extensions.options/3.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
+        "microsoft.extensions.options.3.1.4.nupkg.sha512",
+        "microsoft.extensions.options.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Options.ConfigurationExtensions/3.1.4": {
+      "sha512": "tTXDVrLUv+cqCu7piSoVWk4BNcDAPGCIsoir19VEjMzefpBPS/HlXtR26RctHDsdo2qdAeyPNSEqtNc2g/7/qg==",
+      "type": "package",
+      "path": "microsoft.extensions.options.configurationextensions/3.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "microsoft.extensions.options.configurationextensions.3.1.4.nupkg.sha512",
+        "microsoft.extensions.options.configurationextensions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/3.1.4": {
+      "sha512": "tLR9n5ltwA56nr1t5M6q5IBfGLXtMS+XgumtqVENmtPQOWUD+m0Kgo1U6GWr06Y875WUN3sOGnmqkvW4an7fYA==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/3.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.3.1.4.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "OdeToCode.UseNodeModules/3.0.0": {
+      "sha512": "w1Xdc8oDggU4nucBSnoR4pPT9oHf/JtYGOisaeaFd8jiOoBcByddyuIPmWI2GiNUpXGKMPQROD4wl1aeEZ5aaA==",
+      "type": "package",
+      "path": "odetocode.usenodemodules/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Properties/launchSettings.json",
+        "contentFiles/any/netcoreapp3.0/Properties/launchSettings.json",
+        "lib/netcoreapp3.0/OdeToCode.UseNodeModules.dll",
+        "odetocode.usenodemodules.3.0.0.nupkg.sha512",
+        "odetocode.usenodemodules.nuspec"
+      ]
+    },
+    "popper.js/1.16.0": {
+      "sha512": "ZJhaIouJ7dztoRoqj+KA1ADGpEIr+MzCWOkKm/Q6tu3CAauSsc+ZzXsxsD6RClRwieacqE3QNYNpaLU/mkVnWg==",
+      "type": "package",
+      "path": "popper.js/1.16.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Scripts/README.md",
+        "content/Scripts/esm/popper-utils.js",
+        "content/Scripts/esm/popper-utils.js.map",
+        "content/Scripts/esm/popper-utils.min.js",
+        "content/Scripts/esm/popper-utils.min.js.map",
+        "content/Scripts/esm/popper.js",
+        "content/Scripts/esm/popper.js.map",
+        "content/Scripts/esm/popper.min.js",
+        "content/Scripts/esm/popper.min.js.map",
+        "content/Scripts/index.d.ts",
+        "content/Scripts/index.js.flow",
+        "content/Scripts/popper-utils.js",
+        "content/Scripts/popper-utils.js.map",
+        "content/Scripts/popper-utils.min.js",
+        "content/Scripts/popper-utils.min.js.map",
+        "content/Scripts/popper.js",
+        "content/Scripts/popper.js.map",
+        "content/Scripts/popper.min.js",
+        "content/Scripts/popper.min.js.map",
+        "content/Scripts/src/index.js",
+        "content/Scripts/src/methods/defaults.js",
+        "content/Scripts/src/methods/destroy.js",
+        "content/Scripts/src/methods/disableEventListeners.js",
+        "content/Scripts/src/methods/enableEventListeners.js",
+        "content/Scripts/src/methods/placements.js",
+        "content/Scripts/src/methods/update.js",
+        "content/Scripts/src/modifiers/applyStyle.js",
+        "content/Scripts/src/modifiers/arrow.js",
+        "content/Scripts/src/modifiers/computeStyle.js",
+        "content/Scripts/src/modifiers/flip.js",
+        "content/Scripts/src/modifiers/hide.js",
+        "content/Scripts/src/modifiers/index.js",
+        "content/Scripts/src/modifiers/inner.js",
+        "content/Scripts/src/modifiers/keepTogether.js",
+        "content/Scripts/src/modifiers/offset.js",
+        "content/Scripts/src/modifiers/preventOverflow.js",
+        "content/Scripts/src/modifiers/shift.js",
+        "content/Scripts/src/utils/clockwise.js",
+        "content/Scripts/src/utils/computeAutoPlacement.js",
+        "content/Scripts/src/utils/debounce.js",
+        "content/Scripts/src/utils/find.js",
+        "content/Scripts/src/utils/findCommonOffsetParent.js",
+        "content/Scripts/src/utils/findIndex.js",
+        "content/Scripts/src/utils/getBordersSize.js",
+        "content/Scripts/src/utils/getBoundaries.js",
+        "content/Scripts/src/utils/getBoundingClientRect.js",
+        "content/Scripts/src/utils/getClientRect.js",
+        "content/Scripts/src/utils/getFixedPositionOffsetParent.js",
+        "content/Scripts/src/utils/getOffsetParent.js",
+        "content/Scripts/src/utils/getOffsetRect.js",
+        "content/Scripts/src/utils/getOffsetRectRelativeToArbitraryNode.js",
+        "content/Scripts/src/utils/getOppositePlacement.js",
+        "content/Scripts/src/utils/getOppositeVariation.js",
+        "content/Scripts/src/utils/getOuterSizes.js",
+        "content/Scripts/src/utils/getParentNode.js",
+        "content/Scripts/src/utils/getPopperOffsets.js",
+        "content/Scripts/src/utils/getReferenceNode.js",
+        "content/Scripts/src/utils/getReferenceOffsets.js",
+        "content/Scripts/src/utils/getRoot.js",
+        "content/Scripts/src/utils/getRoundedOffsets.js",
+        "content/Scripts/src/utils/getScroll.js",
+        "content/Scripts/src/utils/getScrollParent.js",
+        "content/Scripts/src/utils/getStyleComputedProperty.js",
+        "content/Scripts/src/utils/getSupportedPropertyName.js",
+        "content/Scripts/src/utils/getViewportOffsetRectRelativeToArtbitraryNode.js",
+        "content/Scripts/src/utils/getWindow.js",
+        "content/Scripts/src/utils/getWindowSizes.js",
+        "content/Scripts/src/utils/includeScroll.js",
+        "content/Scripts/src/utils/index.js",
+        "content/Scripts/src/utils/isBrowser.js",
+        "content/Scripts/src/utils/isFixed.js",
+        "content/Scripts/src/utils/isFunction.js",
+        "content/Scripts/src/utils/isIE.js",
+        "content/Scripts/src/utils/isModifierEnabled.js",
+        "content/Scripts/src/utils/isModifierRequired.js",
+        "content/Scripts/src/utils/isNumeric.js",
+        "content/Scripts/src/utils/isOffsetContainer.js",
+        "content/Scripts/src/utils/removeEventListeners.js",
+        "content/Scripts/src/utils/runModifiers.js",
+        "content/Scripts/src/utils/setAttributes.js",
+        "content/Scripts/src/utils/setStyles.js",
+        "content/Scripts/src/utils/setupEventListeners.js",
+        "content/Scripts/umd/popper-utils.js",
+        "content/Scripts/umd/popper-utils.js.map",
+        "content/Scripts/umd/popper-utils.min.js",
+        "content/Scripts/umd/popper-utils.min.js.map",
+        "content/Scripts/umd/popper.js",
+        "content/Scripts/umd/popper.js.flow",
+        "content/Scripts/umd/popper.js.map",
+        "content/Scripts/umd/popper.min.js",
+        "content/Scripts/umd/popper.min.js.map",
+        "popper.js.1.16.0.nupkg.sha512",
+        "popper.js.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Microsoft.AspNetCore.NodeServices >= 3.1.4",
+      "OdeToCode.UseNodeModules >= 3.0.0",
+      "bootstrap >= 4.4.1",
+      "jQuery >= 3.5.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jonsh\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\jonsh\\Source\\Repos\\webappexample\\DutchTreat\\DutchTreat.csproj",
+      "projectName": "DutchTreat",
+      "projectPath": "C:\\Users\\jonsh\\Source\\Repos\\webappexample\\DutchTreat\\DutchTreat.csproj",
+      "packagesPath": "C:\\Users\\jonsh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jonsh\\Source\\Repos\\webappexample\\DutchTreat\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\jonsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "Microsoft.AspNetCore.NodeServices": {
+            "target": "Package",
+            "version": "[3.1.4, )"
+          },
+          "OdeToCode.UseNodeModules": {
+            "target": "Package",
+            "version": "[3.0.0, )"
+          },
+          "bootstrap": {
+            "target": "Package",
+            "version": "[4.4.1, )"
+          },
+          "jQuery": {
+            "target": "Package",
+            "version": "[3.5.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "fi5luVHZkjq1SnMXhY0jXKXejP2SpxsvQuFi3wfRvPBnvuvJVRXqPZRmYK9zMHu8JrHQCXRDswj6hCBmLk7akw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jonsh\\Source\\Repos\\webappexample\\DutchTreat\\DutchTreat.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jonsh\\.nuget\\packages\\bootstrap\\4.4.1\\bootstrap.4.4.1.nupkg.sha512",
+    "C:\\Users\\jonsh\\.nuget\\packages\\jquery\\3.5.1\\jquery.3.5.1.nupkg.sha512",
+    "C:\\Users\\jonsh\\.nuget\\packages\\microsoft.aspnetcore.nodeservices\\3.1.4\\microsoft.aspnetcore.nodeservices.3.1.4.nupkg.sha512",
+    "C:\\Users\\jonsh\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.4\\microsoft.extensions.configuration.3.1.4.nupkg.sha512",
+    "C:\\Users\\jonsh\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.4\\microsoft.extensions.configuration.abstractions.3.1.4.nupkg.sha512",
+    "C:\\Users\\jonsh\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.4\\microsoft.extensions.configuration.binder.3.1.4.nupkg.sha512",
+    "C:\\Users\\jonsh\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.4\\microsoft.extensions.dependencyinjection.3.1.4.nupkg.sha512",
+    "C:\\Users\\jonsh\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.4\\microsoft.extensions.dependencyinjection.abstractions.3.1.4.nupkg.sha512",
+    "C:\\Users\\jonsh\\.nuget\\packages\\microsoft.extensions.logging\\3.1.4\\microsoft.extensions.logging.3.1.4.nupkg.sha512",
+    "C:\\Users\\jonsh\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.4\\microsoft.extensions.logging.abstractions.3.1.4.nupkg.sha512",
+    "C:\\Users\\jonsh\\.nuget\\packages\\microsoft.extensions.logging.configuration\\3.1.4\\microsoft.extensions.logging.configuration.3.1.4.nupkg.sha512",
+    "C:\\Users\\jonsh\\.nuget\\packages\\microsoft.extensions.logging.console\\3.1.4\\microsoft.extensions.logging.console.3.1.4.nupkg.sha512",
+    "C:\\Users\\jonsh\\.nuget\\packages\\microsoft.extensions.options\\3.1.4\\microsoft.extensions.options.3.1.4.nupkg.sha512",
+    "C:\\Users\\jonsh\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\3.1.4\\microsoft.extensions.options.configurationextensions.3.1.4.nupkg.sha512",
+    "C:\\Users\\jonsh\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.4\\microsoft.extensions.primitives.3.1.4.nupkg.sha512",
+    "C:\\Users\\jonsh\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\jonsh\\.nuget\\packages\\odetocode.usenodemodules\\3.0.0\\odetocode.usenodemodules.3.0.0.nupkg.sha512",
+    "C:\\Users\\jonsh\\.nuget\\packages\\popper.js\\1.16.0\\popper.js.1.16.0.nupkg.sha512"
+  ],
+  "logs": []
+}
